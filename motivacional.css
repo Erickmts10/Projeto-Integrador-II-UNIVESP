@@ -1,0 +1,121 @@
+/* Estilos gerais */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f9fafb;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar */
+.navbar {
+  background: #3182ce;
+  color: white;
+  padding: 15px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.navbar nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 15px;
+  font-weight: bold;
+  transition: opacity 0.3s;
+}
+
+.navbar nav a:hover {
+  opacity: 0.8;
+}
+
+/* Conteúdo principal */
+main.conteudo {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 20px;
+  text-align: center;
+}
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 2em;
+  color: #2b6cb0;
+  margin-bottom: 15px;
+}
+
+p.intro {
+  font-size: 1.1em;
+  color: #4a5568;
+  margin-bottom: 40px;
+}
+
+/* Cards de depoimentos */
+.depoimentos {
+  position: relative;
+  height: 180px;
+}
+
+.depoimento {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: #e0f2fe;
+  padding: 25px;
+  border-left: 6px solid #3182ce;
+  border-radius: 10px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.05);
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 0.6s ease;
+}
+
+.depoimento.active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.depoimento p {
+  font-style: italic;
+  margin-bottom: 10px;
+  font-size: 1.05em;
+}
+
+.depoimento span {
+  font-weight: bold;
+  color: #2b6cb0;
+}
+
+/* Botões de navegação funcional porém mais estilizado*/
+.controls {
+  margin-top: 200px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.controls button {
+  border: none;
+  background: #3182ce;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.controls button:hover {
+  background: #2b6cb0;
+}
