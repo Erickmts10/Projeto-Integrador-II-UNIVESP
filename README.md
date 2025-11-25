@@ -96,7 +96,7 @@ Projeto desenvolvido pelos alunos da **Universidade Virtual do Estado de São Pa
 ---
 
 ## 🔗 Links
-- [📺 Vídeo de apresentação do projeto](link)  
+- [📺 Vídeo de apresentação do projeto](https://youtu.be/SIchqUu47-w)  
 - [🔗 UNIVESP](https://univesp.br)
 
 ---
